@@ -198,13 +198,15 @@ const HRISLanding = () => {
                 Kelola seluruh aspek HR dengan platform all-in-one yang powerful, mudah, dan terintegrasi.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="px-8 py-4 bg-gradient-to-r from-[#1E3A5F] to-[#7CA5BF] text-white rounded-lg hover:shadow-2xl transform hover:scale-105 transition-all flex items-center justify-center group">
-                  Mulai Gratis
-                  <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-                </button>
-                <button className="px-8 py-4 border-2 border-[#1E3A5F] text-[#1E3A5F] rounded-lg hover:bg-[#1E3A5F] hover:text-white transition-all">
+                <Link href="/auth">
+                  <button className="px-8 py-4 bg-gradient-to-r from-[#1E3A5F] to-[#7CA5BF] text-white rounded-lg hover:shadow-2xl transform hover:scale-105 transition-all flex items-center justify-center group">
+                    </>Mulai Gratis
+                    <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                  </button>
+                </Link>
+                {/* <button className="px-8 py-4 border-2 border-[#1E3A5F] text-[#1E3A5F] rounded-lg hover:bg-[#1E3A5F] hover:text-white transition-all">
                   Lihat Demo
-                </button>
+                </button> */}
               </div>
               <div className="mt-8 flex items-center gap-8 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
