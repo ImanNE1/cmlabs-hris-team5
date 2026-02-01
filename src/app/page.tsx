@@ -200,7 +200,7 @@ const HRISLanding = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/auth">
                   <button className="px-8 py-4 bg-gradient-to-r from-[#1E3A5F] to-[#7CA5BF] text-white rounded-lg hover:shadow-2xl transform hover:scale-105 transition-all flex items-center justify-center group">
-                    </>Mulai Gratis
+                    Mulai Gratis
                     <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </button>
                 </Link>
@@ -546,12 +546,14 @@ const HRISLanding = () => {
               Bergabunglah dengan ribuan perusahaan yang telah merasakan kemudahan mengelola HR dengan HRIS Pro
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-10 py-4 bg-white text-[#1E3A5F] rounded-lg font-bold hover:shadow-2xl transform hover:scale-105 transition-all">
-                Coba Gratis 14 Hari
-              </button>
-              <button className="px-10 py-4 border-2 border-white text-white rounded-lg font-bold hover:bg-white hover:text-[#1E3A5F] transition-all">
+              <Link href="/auth">
+                <button className="px-10 py-4 bg-white text-[#1E3A5F] rounded-lg font-bold hover:shadow-2xl transform hover:scale-105 transition-all">
+                  Coba Gratis 14 Hari
+                </button>
+              </Link>
+              {/* <button className="px-10 py-4 border-2 border-white text-white rounded-lg font-bold hover:bg-white hover:text-[#1E3A5F] transition-all">
                 Hubungi Sales
-              </button>
+              </button> */}
             </div>
             <p className="text-white/70 text-sm mt-6">Tidak perlu kartu kredit • Setup dalam 5 menit</p>
           </div>
