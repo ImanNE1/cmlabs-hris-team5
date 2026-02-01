@@ -511,7 +511,7 @@ export default function AddEmployeeDialog({
           {/* Additional Information */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <Label htmlFor="nik">NIK (National ID)</Label>
+              <Label htmlFor="nik">NIK (National ID (16))</Label>
               <Input
                 id="nik"
                 value={formData.nik || ""}
