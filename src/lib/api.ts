@@ -4,8 +4,8 @@
 
 import { ReactNode } from "react";
 
-const API_URL = 'https://widespread-laptop-expressed-cat.trycloudflare.com/api/v1';
-const UPLOADS_URL = 'https://widespread-laptop-expressed-cat.trycloudflare.com/uploads';
+const API_URL = 'https://81bfbaf5-4cb4-4dad-93eb-8e4a04af7f04.svc.dalang.io/api/v1';
+const UPLOADS_URL = 'https://81bfbaf5-4cb4-4dad-93eb-8e4a04af7f04.svc.dalang.io/uploads';
 
 // ============================================
 // Helper Functions
