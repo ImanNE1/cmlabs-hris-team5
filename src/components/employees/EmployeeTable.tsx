@@ -155,6 +155,7 @@ const EditEmployeeDialog = ({ employee, positions, grades, branches, onUpdate, c
     const [formData, setFormData] = useState<UpdateEmployeeRequest>({
         full_name: employee.full_name,
         employee_code: employee.employee_code,
+        email: typeof employee.email === 'string' ? employee.email : '',
         nik: employee.nik,
         gender: employee.gender,
         phone_number: employee.phone_number,
@@ -212,6 +213,10 @@ const EditEmployeeDialog = ({ employee, positions, grades, branches, onUpdate, c
                         <div className="space-y-2">
                             <Label htmlFor="employee_code">Employee Code</Label>
                             <Input id="employee_code" value={formData.employee_code || ''} onChange={handleInputChange} />
+                        </div>
+                        <div className="space-y-2">
+                            <Label htmlFor="email">Email</Label>
+                            <Input id="email" value={formData.email || ''} onChange={handleInputChange} />
                         </div>
                         <div className="space-y-2">
                             <Label htmlFor="nik">NIK</Label>
